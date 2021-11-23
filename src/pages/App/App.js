@@ -50,6 +50,11 @@ const [johnsThings] = useState([
     image: "https://static.zerochan.net/Ningguang.full.3097820.jpg",
     attributes: ["geo", "a literal queen", "super cool barrier", "idk how i pulled her she just appeared"], 
   },
+  {
+    name: "Venti",
+    image: "https://i.ytimg.com/vi/plHK_9MXE_E/maxresdefault.jpg",
+    attributes: ["anemo", "bard", "tone-deaf", "ehe te nandayo"], 
+  },
 ])
 
   return (
