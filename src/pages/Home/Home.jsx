@@ -8,6 +8,7 @@ const Home = (props) => {
       {/* All the <a> tags should live here */}
       <h1>All-The-Things</h1>
       <Link to="/the-functional-things">Grace's Things</Link><br/>
+      <Link to="/the-amazing-things">Alex's Things</Link><br/>
     </>
   );
 }
