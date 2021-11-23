@@ -55,6 +55,11 @@ const [johnsThings] = useState([
     image: "https://i.ytimg.com/vi/plHK_9MXE_E/maxresdefault.jpg",
     attributes: ["anemo", "bard", "tone-deaf", "ehe te nandayo"], 
   },
+  {
+    name: "Paimon",
+    image: "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/10/Genshin-Impact-Paimon-Fishing.jpg",
+    attributes: ["emergency food", "same name as a demon", "high pitched af", "creator of 'ehe te nandayo'"], 
+  },
 ])
 
   return (
