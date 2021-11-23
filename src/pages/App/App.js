@@ -44,6 +44,11 @@ const [johnsThings] = useState([
     image: "https://preview.redd.it/n9f3ttpv1jp51.jpg?auto=webp&s=e33a4f789fe61ce5d308e34c9d23d22176b0fa9c",
     attributes: ["hydro", "broke af", "second best grill"], 
   },
+  {
+    name: "Ningguang",
+    image: "https://static.zerochan.net/Ningguang.full.3097820.jpg",
+    attributes: ["geo", "a literal queen", "super cool barrier", "idk how i pulled her she just appeared"], 
+  },
 ])
 
   return (
