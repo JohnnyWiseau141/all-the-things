@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Route, Routes } from 'react-router-dom'
 import './App.css';
+import GraceThings from '../GraceThings/GraceThings';
 import FunctionalThings from '../FunctionalThings/FunctionalThings'
 import Home from '../Home/Home';
 
@@ -8,14 +9,14 @@ import Home from '../Home/Home';
 const App = () => {
 const [gracesThings] = useState([
   {
-    name: "functional programming",
-    image: "https://imgs.xkcd.com/comics/functional.png",  
-    attributes: ["efficient", "reusability", "not a taco", "beautiful"],
+    name: "zhongliiii",
+    image: "https://avatarfiles.alphacoders.com/280/thumb-280958.png",  
+    attributes: ["best boi", "osmanthus wine ;)", "REX LAPIS", "i WILL have order"],
   },
   {
-    name: "React hooks",
-    image: "https://images.unsplash.com/photo-1518644730709-0835105d9daa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-    attributes: ["useEffect", "useState", "not a taco", "state's best friend"], 
+    name: "ganyu cryo kween",
+    image: "https://avatarfiles.alphacoders.com/280/280957.png",
+    attributes: ["cRYO~~~", "wow much dps", "not a taco", "pew pew pew"], 
   },
 ])
 
@@ -50,7 +51,7 @@ const [johnsThings] = useState([
       <Routes>
         <Route path='/' element={<Home/>} />
         {/* All the <Route> components should live here */}
-        <Route path='/the-functional-things' element={<FunctionalThings things={gracesThings} />} />
+        <Route path='/the-grace-things' element={<GraceThings things={gracesThings} />} />
         <Route path='/the-amazing-things' element={<FunctionalThings things={alexsThings} />} />
         <Route path='/the-best-things' element={<FunctionalThings things={johnsThings} />} />
       </Routes>
