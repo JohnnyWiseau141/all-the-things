@@ -24,7 +24,7 @@ const [gracesThings] = useState([
 const [alexsThings] = useState([
   {
     name: "my mom",
-    image: "https://www.telegraph.co.uk/content/dam/beauty/2016/06/22/Grace-Timothy-xlarge_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.jpg",  
+    image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette3.wikia.nocookie.net%2Ftheregularshow%2Fimages%2Fa%2Fa6%2FS6E04.406_The_Real_Mom_of_Muscle_Man.png%2Frevision%2Flatest%3Fcb%3D20141102052159&f=1&nofb=1",  
     attributes: ["yes", "yes", "not a taco", "amazing"],
   },
   {
