@@ -7,9 +7,9 @@ const AmazingThings = (props) => {
     <>
       <Link to="/"> Home </Link>
 
-      {props.things.map((thing, idx) => {
+      {props.things.map((thing, idx) => 
         <ThingCard key={idx} thing={thing}/>
-      })}
+      )}
     </>
   );
 }
