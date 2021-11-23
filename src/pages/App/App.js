@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Route, Routes } from 'react-router-dom'
 import './App.css';
 import GraceThings from '../GraceThings/GraceThings';
+import AmazingThings from '../AmazingThings/AmazingThings';
 import FunctionalThings from '../FunctionalThings/FunctionalThings'
 import Home from '../Home/Home';
 
@@ -52,7 +53,7 @@ const [johnsThings] = useState([
         <Route path='/' element={<Home/>} />
         {/* All the <Route> components should live here */}
         <Route path='/the-grace-things' element={<GraceThings things={gracesThings} />} />
-        <Route path='/the-amazing-things' element={<FunctionalThings things={alexsThings} />} />
+        <Route path='/the-amazing-things' element={<AmazingThings things={alexsThings} />} />
         <Route path='/the-best-things' element={<FunctionalThings things={johnsThings} />} />
       </Routes>
     </>
