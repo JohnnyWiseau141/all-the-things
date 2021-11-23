@@ -12,12 +12,12 @@ const [gracesThings] = useState([
   {
     name: "zhongliiii",
     image: "https://avatarfiles.alphacoders.com/280/thumb-280958.png",  
-    attributes: ["best boi", "osmanthus wine ;)", "REX LAPIS", "i WILL have order"],
+    attributes: ["best boi", "osmanthus wine ;)", "REX LAPIS", "i WILL have order", "money isn't real"],
   },
   {
     name: "ganyu cryo kween",
     image: "https://avatarfiles.alphacoders.com/280/280957.png",
-    attributes: ["cRYO~~~", "wow much dps", "not a taco", "pew pew pew"], 
+    attributes: ["cRYO~~~", "wow much dps", "not a taco", "pew pew pew", "best gurl"], 
   },
 ])
 
